@@ -1,4 +1,5 @@
 require('coffee-script');
+require('coffee-script/register');
 
 // Check for "build" parameter (node server.js build)
 var is_build = (process.argv[2] == "build");

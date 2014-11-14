@@ -101,7 +101,8 @@ hgroup,
 menu,
 nav,
 section,
-summary {
+summary,
+main {
   margin: 0;
   padding: 0;
   border: 0;
@@ -549,8 +550,6 @@ input.ui-button {
 }
 .ui-button-text-icon-secondary .ui-button-icon-secondary,
 .ui-button-text-icons .ui-button-icon-secondary,
-.ui-button-icons-only .ui-button-icon-secondary,
-.ui-button-text-icons .ui-button-icon-secondary,
 .ui-button-icons-only .ui-button-icon-secondary {
   right: 0.5em;
 }
@@ -710,7 +709,7 @@ button.ui-button::-moz-focus-inner {
   font-size: 0;
   text-indent: -9999px;
   opacity: 0.4;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
   filter: alpha(opacity=40);
 }
 #keyEditDialogDelete:hover {
@@ -818,7 +817,7 @@ a.ui-dialog-titlebar-close span {
   float: left;
   text-indent: -9999px;
   opacity: 0.9;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
 }
 #sidebar ul.tree span,
@@ -839,7 +838,7 @@ a.ui-dialog-titlebar-close span {
   color: #fff;
   background: #000;
   opacity: 0.6;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: alpha(opacity=60);
   cursor: pointer;
   padding: 2px 8px;
@@ -890,7 +889,7 @@ a.ui-dialog-titlebar-close span {
 }
 .ui-layout-resizer-sliding {
   opacity: 0.1;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
   filter: alpha(opacity=10);
 }
 .ui-layout-resizer-sliding-hover {
@@ -917,7 +916,7 @@ a.ui-dialog-titlebar-close span {
 .ui-layout-resizer-hover .ui-layout-toggler {
   background-color: #ddd;
   opacity: 0.5;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
 }
 .ui-layout-toggler-hover,
@@ -952,7 +951,7 @@ a.ui-dialog-titlebar-close span {
   overflow: hidden !important;
   position: absolute !important;
   opacity: 0 !important;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0) !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
   filter: alpha(opacity=0) !important;
 }
 .ui-layout-mask-inside-pane {

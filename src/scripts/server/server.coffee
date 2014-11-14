@@ -29,11 +29,8 @@ exec_and_log = (command, on_complete = null) ->
 # development environment
 
 # Setup express server
-app = express.createServer()
+app = express()
 port = process.env.PORT || 3000
-app.use app.router
-app.use express.methodOverride()
-app.use express.bodyParser()
 app.set "views", __dirname + "/views"
 app.set "view engine", "jade"
 
