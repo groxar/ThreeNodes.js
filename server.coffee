@@ -14,5 +14,5 @@ app.get '/', (req, res) ->
 	    res.render('index.html');
 
 
-app.listen(8080, '127.0.0.1')
+app.listen 8080
 
